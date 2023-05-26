@@ -70,6 +70,10 @@ namespace EnemyLogic
             _currentHealth -= skillParameters.power;
             if (_currentHealth <= 0)
                 Die();
+            else
+            {
+                animator.SetTrigger("Block");
+            }
         }
 
         void Atack()

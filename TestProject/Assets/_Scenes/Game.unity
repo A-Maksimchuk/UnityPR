@@ -585,6 +585,9 @@ MonoBehaviour:
   - prefab: {fileID: 6567869374634319850, guid: 752abbf030373dd45a7301e2b5094775,
       type: 3}
     probabilityWeight: 100
+  - prefab: {fileID: 2450740701851493047, guid: 4411dec8042decd47adf319b2a48f598,
+      type: 3}
+    probabilityWeight: 50
   enemyCreateDelay: 2
 --- !u!4 &512116485
 Transform:
